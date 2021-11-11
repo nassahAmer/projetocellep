@@ -1,0 +1,42 @@
+/* Header---------------- */
+.active{
+  background-color: rgb(49, 49, 155);
+}
+
+.nav-link{
+  color: white !important;
+}
+
+.nav-link:hover:not(.active), .dropdown-item:hover{
+  background-color: blueviolet;
+}
+
+
+/* MAIN ----------------- */
+
+.bg-imagem{
+
+  background-image: url(https://cdn.pixabay.com/photo/2015/01/08/18/24/children-593313_960_720.jpg);
+
+  height: 58vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.bg-imagem p{
+  font-size: 4vw;
+  text-shadow: 0 5px 10px rgb(0, 0, 0);
+}
+
+.card:hover{
+  box-shadow: 0 0 10px gray;
+}
+
+/* Agenda -------------- */
+
+table .bg-info{
+  color: white;
+}
+
+
